@@ -9,7 +9,7 @@ eye_cascade = cv2.CascadeClassifier(path_cascade + 'haarcascade_eye.xml')
 
 # Load image and convert it to grayscale:
 img_path = "./img/"
-img = cv2.imread(img_path + 'img0.jpg')
+img = cv2.imread(img_path + 'rodo_2021.png')
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 # Create multiscale classifier:

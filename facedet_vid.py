@@ -2,6 +2,7 @@ import numpy as np
 import imutils
 import cv2
 
+
 # Load Haar Cascade files
 path_cascade = "./haarcascades/"
 face_cascade = cv2.CascadeClassifier(
@@ -10,6 +11,7 @@ face_cascade = cv2.CascadeClassifier(
 eye_cascade = cv2.CascadeClassifier(
     path_cascade + 'haarcascade_mcs_eyepair_big.xml'
 )
+
 
 # Load video capture
 cap = cv2.VideoCapture(0)
@@ -26,6 +28,7 @@ while True:
         cv2.rectangle(img, (x, y), (x + w, y + h), (255, 0, 0), 2)
         roi_gray = gray[y:y + h, x:x + w]
         roi_color = img[y:y + h, x:x + w]
+        cv2.imshow('face', roi_color)
         
         eyes = eye_cascade.detectMultiScale(roi_gray)
         for (ex, ey, ew, eh) in eyes:
