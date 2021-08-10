@@ -7,7 +7,7 @@ Sesión de reconocimiento facial para Hackademy. En esta sesión explicamos el p
 
 Revisa los slides [aquí](https://docs.google.com/presentation/d/e/2PACX-1vR5wgAoNGyy0fhkLbYGiY2CTzh80j5ACa3hrTLU0U7feA4ZUoFLvumO4yqqLO5vwTygy8wFbcqdAoMX/pub?start=false&loop=false&delayms=3000).
 
-Y un TikTok demostrando el funcionamiento aquí: 
+Y un TikTok demostrando el funcionamiento aquí: [https://vm.tiktok.com/ZMdoMfmKM/](https://vm.tiktok.com/ZMdoMfmKM/)
 
 
 ## Setup
